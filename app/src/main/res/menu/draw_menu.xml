@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <item
+        android:id="@+id/aboutApp"
+        android:title="About App &amp; Guideline"
+        android:icon="@drawable/about"
+        />
+    <item
+        android:id="@+id/privacyPolicy"
+        android:title="@string/privacy_policy"
+        android:icon="@drawable/privacy_policy"
+        />
+    <item
+        android:id="@+id/deleteData"
+        android:title="Delete Data"
+        android:icon="@drawable/bin"
+        />
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/share_svg"
+        />
+    <item
+        android:id="@+id/rateUs"
+        android:title="@string/rate_us"
+        android:icon="@drawable/rate_us"
+        />
+</menu>

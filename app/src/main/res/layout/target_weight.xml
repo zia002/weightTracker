@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10sdp"
+    android:layout_margin="@dimen/_10sdp"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_margin="@dimen/_2sdp"
+            android:padding="@dimen/_2sdp"
+            android:src="@drawable/weight" />
+
+        <TextView
+            android:id="@+id/notifyTimeDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/candal"
+            android:gravity="center"
+            android:padding="@dimen/_4sdp"
+            android:text="Set Target Weight"
+            android:textSize="@dimen/_20sdp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#121111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:id="@+id/TextInputLayout"
+        android:layout_width="@dimen/_145sdp"
+        android:layout_height="wrap_content"
+        android:hint="Target"
+        android:textColorHint="@color/app"
+        app:boxStrokeColor="@color/app"
+        app:boxStrokeWidth="@dimen/_2sdp"
+        app:endIconMode="clear_text"
+        app:hintTextColor="@color/app"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:fontFamily="@font/candal"
+            android:letterSpacing=".1"
+            android:id="@+id/targetWeightIp"
+            style="@style/for_input"
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:textSize="@dimen/_15sdp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView
+        android:id="@+id/addTarget"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:padding="@dimen/_6sdp"
+        android:text="Set"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TextInputLayout"
+        android:layout_margin="@dimen/_4sdp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

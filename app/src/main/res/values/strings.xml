@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">WeightTracker </string>
+    <string-array name="height_item">
+        <item>Feet-Inch</item>
+        <item>Meter</item>
+        <item>Inch</item>
+    </string-array>
+    <string-array name="weight_item">
+        <item>Kg</item>
+        <item>Pound</item>
+    </string-array>
+    <string-array name="first_bmi">
+        <item>1. Consult a healthcare professional</item>
+        <item>2. Evaluate dietary habits</item>
+        <item>3. Increase calorie intake</item>
+        <item>4. Focus on nutrient-rich foods</item>
+        <item>5. Consider frequent meals and snacks</item>
+        <item>6. Strength training exercises</item>
+        <item>7. Monitor progress</item>
+        <item>8. Address underlying health conditions</item>
+        <item>9. Seek support</item>
+        <item>10.Avoid unhealthy weight gain</item>
+    </string-array>
+    <string-array name="second_bmi">
+        <item>1. Maintain a balanced diet and healthy eating habits</item>
+        <item>2. Engage in regular physical activity and exercise</item>
+        <item>3. Prioritize mental and emotional well-being</item>
+        <item>4. Get regular check-ups and screenings for preventive healthcare</item>
+        <item>5. Practice stress management techniques</item>
+        <item>6. Avoid smoking and limit alcohol consumption</item>
+        <item>7. Stay hydrated by drinking plenty of water</item>
+        <item>8. Get adequate sleep each night</item>
+        <item>9. Practice portion control and mindful eating</item>
+        <item>10. Strive for overall balance and moderation in lifestyle choices</item>
+    </string-array>
+    <string-array name="third_bmi">
+        <item>1. Consult a healthcare professional for personalized advice</item>
+        <item>2. Focus on portion control and mindful eating</item>
+        <item>3. Increase consumption of fruits and vegetables</item>
+        <item>4. Limit intake of processed foods and sugary beverages</item>
+        <item>5. Incorporate regular physical activity into daily routine</item>
+        <item>6. Monitor food intake and track progress regularly</item>
+        <item>7. Seek support from friends, family, or a support group</item>
+        <item>8. Set realistic and achievable weight loss goals</item>
+        <item>9. Practice stress management techniques to prevent emotional eating</item>
+        <item>10. Stay motivated and persistent in making healthy lifestyle changes</item>
+    </string-array>
+    <string-array name="forth_bmi">
+        <item>1. Consult a healthcare professional for personalized guidance and support</item>
+        <item>2. Adopt a well-balanced, calorie-controlled diet</item>
+        <item>3. Increase physical activity levels with regular exercise</item>
+        <item>4. Incorporate strength training exercises to build muscle mass</item>
+        <item>5. Monitor food intake and keep a food diary</item>
+        <item>6. Set achievable weight loss goals and track progress</item>
+        <item>7. Seek support from healthcare providers, nutritionists, or support groups</item>
+        <item>8. Practice stress management techniques to avoid emotional eating</item>
+        <item>9. Limit intake of high-calorie, low-nutrient foods and sugary beverages</item>
+        <item>10. Stay committed to making sustainable lifestyle changes for long-term health</item>
+    </string-array>
+    <string-array name="fifth_bmi">
+        <item>1. Seek immediate guidance from a healthcare professional or specialist</item>
+        <item>2. Follow a personalized and structured weight management plan</item>
+        <item>3. Prioritize a nutrient-rich, balanced diet with portion control</item>
+        <item>4. Engage in regular physical activity, considering low-impact exercises if necessary</item>
+        <item>5. Monitor progress closely and adjust the plan accordingly</item>
+        <item>6. Consider additional support from dietitians, psychologists, or obesity specialists</item>
+        <item>7. Address any underlying health conditions contributing to obesity</item>
+        <item>8. Explore behavioral therapy or counseling to address emotional eating patterns</item>
+        <item>9. Participate in support groups or community programs for encouragement and accountability</item>
+        <item>10. Remain committed to long-term lifestyle changes for sustainable weight management</item>
+    </string-array>
+    <string-array name="sixth_bmi">
+        <item>1. Immediately consult with a healthcare professional for comprehensive evaluation and management</item>
+        <item>2. Develop a personalized weight loss plan with the guidance of healthcare experts</item>
+        <item>3. Focus on significant lifestyle changes to achieve sustainable weight loss</item>
+        <item>4. Emphasize a balanced, nutrient-dense diet tailored to individual needs</item>
+        <item>5. Incorporate regular physical activity, considering low-impact exercises for safety</item>
+        <item>6. Monitor progress closely and make adjustments as necessary under medical supervision</item>
+        <item>7. Consider specialized interventions such as bariatric surgery if recommended by healthcare providers</item>
+        <item>8. Address underlying health conditions that may contribute to obesity and its complications</item>
+        <item>9. Seek support from a multidisciplinary team including dietitians, psychologists, and exercise specialists</item>
+        <item>10. Maintain long-term follow-up and commitment to healthy lifestyle changes for optimal health outcomes</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="histroy">Histroy</string>
+    <string name="no_need">no need</string>
+    <!-- Tips for gaining weight   -->
+    <string-array name="weight_gain">
+        <item>1.Consume more calories than your body burns each day</item>
+        <item>2.Nutrient-Dense Foods: Opt for foods high in nutrients and calories like nuts, seeds,Bananas,Dates,Apples,Oranges and avocados</item>
+        <item>3.Protein-Rich Foods: Include sources like chicken, turkey, fish, eggs, tofu, and legumes to support muscle growth. </item>
+        <item>4.Healthy Fats: Incorporate sources such as olive oil, coconut oil, fatty fish, and nuts to boost calorie intake. </item>
+        <item>5.Complex Carbohydrates: Choose whole grains like brown rice, quinoa, oats, and whole wheat bread for sustained energy. </item>
+        <item>6.Frequent MealsCalorie Surplus: Aim for 5–6 smaller meals throughout the day to increase calorie consumption. </item>
+        <item>7.Snack Smart: Snack on high-calorie foods like trail mix, cheese and crackers, yogurt with granola, or nut butter with fruit. </item>
+        <item>8.Weight Gain Shakes: Consider homemade or store-bought weight gain shakes with ingredients like protein powder, oats, fruit, and nut butter. </item>
+        <item>9.Strength Training: Combine your diet with a regular strength training routine to build muscle mass. </item>
+        <item>10.Stay Hydrated: Drink plenty of water throughout the day to support digestion and overall health.</item>
+        <item>11.Limit Cardio: Minimize excessive cardio exercises that can burn too many calories.</item>
+        <item>12.Rest and Recovery: Ensure you\'re getting enough sleep and allowing your body to recover between workouts for optimal muscle growth.</item>
+        <item>13.Track Progress: Keep a food diary or use a calorie-tracking app to monitor your intake and adjust as needed.</item>
+        <item>14.Consult a Professional: If you\'re struggling to gain weight, consider consulting a dietitian or nutritionist for personalized advice.</item>
+    </string-array>
+    <!-- Tips for losing weight   -->
+    <string-array name="weight_loss">
+        <item>1. Calorie Deficit: Consume fewer calories than your body burns each day</item>
+        <item>2. Whole Foods: Focus on whole, minimally processed foods such as fruits, vegetables, lean proteins, and whole grains</item>
+        <item>3. Lean Proteins: Include sources like chicken breast, turkey, fish, tofu, beans, and legumes to support muscle retention and metabolism</item>
+        <item>4. Healthy Fats: Incorporate sources such as avocado, nuts, seeds, and olive oil in moderation for satiety and essential nutrients</item>
+        <item>5. Complex Carbohydrates: Choose fiber-rich options like quinoa, sweet potatoes, brown rice, and whole grain bread to stabilize blood sugar levels</item>
+        <item>6. Portion Control: Be mindful of portion sizes to avoid overeating and to manage calorie intake effectively</item>
+        <item>7. Hydration: Drink plenty of water throughout the day to stay hydrated and support metabolic processes</item>
+        <item>8. Regular Exercise: Engage in a combination of cardiovascular exercises and strength training to burn calories, build muscle, and boost metabolism</item>
+        <item>9. Mindful Eating: Pay attention to hunger and fullness cues, eat slowly, and avoid distractions to prevent overeating</item>
+        <item>10. Balanced Meals: Aim for meals that include a combination of protein, healthy fats, and carbohydrates to promote satiety and energy levels</item>
+        <item>11. Limit Sugary and Processed Foods: Minimize intake of sugary beverages, sweets, processed snacks, and refined carbohydrates</item>
+        <item>12. Meal Planning: Plan and prepare meals ahead of time to avoid impulsive and unhealthy food choices</item>
+        <item>13. Regular Sleep: Ensure adequate sleep of 7–9 hours per night to support hormone regulation, metabolism, and overall health</item>
+        <item>14. Stress Management: Practice stress-reducing techniques such as meditation, yoga, deep breathing exercises, or hobbies to prevent emotional eating</item>
+        <item>15. Consistency: Focus on making sustainable lifestyle changes rather than quick-fix diets for long-term weight management</item>
+        <item>16. Professional Guidance: Consult a healthcare professional or registered dietitian for personalized advice and support</item>
+    </string-array>
+    <string name="bmi_title">BMI stands for Body Mass Index. It\'s a numerical value calculated from a person\'s weight and height. BMI is a simple and commonly used method to categorize individuals into different weight categories</string>
+    <string name="about_app">About App</string>
+    <string name="how_to_use">How To Use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <!--  HomeFragment  -->
+    <string name="HF1">Health Condition:
+        Severe Thinness</string>
+    <string name="HF2">Health Condition:
+        Severe Thinness</string>
+    <string name="HF3">Health Condition:
+        Moderate Thinness</string>
+    <string name="HF4">Health Condition:
+        Mild Thinness</string>
+    <string name="HF5">Health Condition:
+        Normal</string>
+    <string name="HF6">Health Condition:
+        Over Weight</string>
+    <string name="HF7">Health Condition:
+        Obese-1</string>
+    <string name="HF8">Health Condition:
+        Obese-2</string>
+    <string name="HF9">Health Condition:
+        Severely Obese</string>
+    <string name="HF10">Health Condition:
+        No Data</string>
+    <!--    -->
+</resources>

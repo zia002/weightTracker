@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="375dp"
+    android:height="842dp"
+    android:viewportWidth="375"
+    android:viewportHeight="842">
+  <path
+      android:strokeWidth="1"
+      android:pathData="M331.62,708H98.09C89.86,708 81.81,710.34 74.87,714.73C68.26,718.92 63.7,725.68 62.29,733.37L60,745.91V841H374V745.91L371.27,733.68C369.5,725.79 364.52,719 357.52,714.95C349.64,710.4 340.71,708 331.62,708Z"
+      android:strokeColor="#000000">
+    <aapt:attr name="android:fillColor">
+      <gradient 
+          android:startX="60"
+          android:startY="774.5"
+          android:endX="374"
+          android:endY="774.5"
+          android:type="linear">
+        <item android:offset="0" android:color="#FFC9383B"/>
+        <item android:offset="1" android:color="#FFB4373D"/>
+      </gradient>
+    </aapt:attr>
+  </path>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M222.5,375V2.5V1H243L252.5,4L263,10.5L271.5,21L277,36V48.5L278,68.5L282.5,86L288.5,98.5L273.5,111.5L256.5,120.5V129.5L282.5,141.5L300.5,155.5L321,176L335,208L342,235.5L349.5,250L358.5,272.5L366.5,306.5V337L370,357.5V375L366.5,388.5L361.5,395L358.5,384.5L361.5,375L358.5,361.5L355.5,375H352.5V361.5L349.5,352.5V343.5L314.5,280L304.5,254.5L296.5,246L300.5,268L310,293L318,302.5L332,337L342,375V421.5L335,466.5L321,521L324,537L321,550L318,560.5L314.5,594.5L292,685V691L306,704.5V708.5H257V697L261,685L257,638L247,594.5V572L252,546V532.5L242.5,503.5L227.5,433L222.5,375Z"
+      android:fillColor="#C9383B"
+      android:strokeColor="#000000"/>
+  <path
+      android:strokeWidth="1"
+      android:pathData="M208.5,709.5H133V694.5L139,681.5L129.5,649L118,605L115.5,577L111.5,566.5V547L99.5,499L91.5,432.5V388.5L99,341V313.5L104.5,286.5L109,272.5L104.5,266.5L35.5,365.5V377.5L33,395V405.5H26.5L23.5,400.5V388.5L19.5,395V405.5L26.5,413L29,417.5H23.5V422L10,415.5L1.5,395L10,330L15.5,306L23.5,286.5L35.5,264L46.5,242.5L57,219.5L67,196.5L85,171.5L99,156L118,142.5L147.5,133L177.5,127L179,117L184,102.5L179,89V81.5L175.5,80L169.5,71V60.5L172.5,55H177.5L175.5,48V34.5V24.5L182,14L194.5,7V3L206,1L217,3V430.5L201.5,555.5L208.5,601.5L201.5,637.5V683.5L208.5,701.5V709.5Z"
+      android:fillColor="#B4373D"
+      android:strokeColor="#000000"/>
+</vector>

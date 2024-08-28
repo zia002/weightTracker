@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/background"
+        android:fontFamily="@font/candal"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_10sdp"
+        android:text="Data Deletion\n Past Data"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_18sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        >
+
+        <RadioButton
+            android:id="@+id/weightDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:drawableStart="@drawable/weight_svg"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="monospace"
+            android:text="Weight"
+            android:textColor="@color/app"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            style="@style/radio_btn"
+            />
+
+        <RadioButton
+            android:id="@+id/bmiDia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/bmi_svg"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="monospace"
+            android:text="BMI"
+            android:textColor="@color/app"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textViewDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/border"
+        android:padding="@dimen/_5sdp"
+        android:text="0"
+        android:textColor="@color/app"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDays"
+        android:max="1000"
+        android:progress="0"
+        android:thumbTint="@color/app"
+        />
+
+    <TextView
+        android:id="@+id/deleteDataDia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:fontFamily="@font/candal"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/_8sdp"
+        android:text="Delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_15sdp"
+        android:drawableEnd="@drawable/bin"
+        android:drawablePadding="@dimen/_5sdp"
+        android:layout_margin="@dimen/_5sdp"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="for_input">
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@color/app</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="radio_btn">
+        <item name="android:state_checked">true</item>
+        <item name="android:color">@color/app</item>
+    </style>
+</resources>

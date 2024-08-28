@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="app">#F8440B</color>
+    <color name="first">#31CCFE</color>
+    <color name="second">#14CD39</color>
+    <color name="third">#FFCC33</color>
+    <color name="forth">#FF6600</color>
+    <color name="fifth">#FE0000</color>
+    <color name="selectedbgcolor">#F3EDEB</color>
+    <color name="a">#19CFED</color>
+    <color name="b">#F196A4</color>
+    <color name="c">#A8E87D</color>
+    <color name="d">#EACE49</color>
+    <color name="e">#87B0ED</color>
+    <color name="f">#DCEC1B</color>
+    <color name="g">#D45DE3</color>
+    <color name="h">#AD92ED</color>
+    <color name="i">#79C082</color>
+    <color name="j">#9DB7E6</color>
+</resources>
