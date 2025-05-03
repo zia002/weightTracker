@@ -4,7 +4,8 @@ A comprehensive weight tracker app that helps you monitor your progress, calcula
 **Dash Board:** Track and manage your weight journey with ease.Use the dashboard to set target weight goals and view your current health condition.
 -Normal Condition:
 
-![WhatsApp Image 2024-09-26 at 8 17 22 PM](https://github.com/user-attachments/assets/d5e8b94f-0df1-4a61-af0c-4961add34cb2)
+<img src="https://github.com/user-attachments/assets/d5e8b94f-0df1-4a61-af0c-4961add34cb2" width="400"/>
+
 
 -Abnormal Condition
 
